@@ -1,0 +1,19 @@
+{
+  "name": "hellobook",
+  "version": "1.0.0",
+  "description": "This is chat app",
+  "main": "index.js",
+  "author": "Incredible Mind",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "serve": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
